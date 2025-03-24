@@ -1,4 +1,4 @@
-# Zerobyte Library
+# ZeroBytE Library
 
 Zerobyte is a Python library for managing food inventory, tracking waste, optimizing recipes, and facilitating donations.
 
