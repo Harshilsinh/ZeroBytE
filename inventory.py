@@ -21,7 +21,7 @@ class FoodInventoryManager:
 
     def inventory_summary(self):
         return self.inventory
-
+#Krish patel
     def import_inventory(self, file_path):
         with open(file_path, 'r') as f:
             self.inventory = json.load(f)
