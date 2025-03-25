@@ -13,3 +13,4 @@ __all__ = [
     "RecipeOptimizer",
     "FoodWasteEducator"
 ]
+#mann 
