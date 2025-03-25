@@ -13,7 +13,7 @@ class FoodInventoryManager:
             self.inventory[name]['quantity'] -= quantity
             if self.inventory[name]['quantity'] <= 0:
                 del self.inventory[name]
-
+#Jaydeepsinh raj
     def check_near_expiry(self, days=3):
         today = datetime.today().date()
         return {name: details for name, details in self.inventory.items()
