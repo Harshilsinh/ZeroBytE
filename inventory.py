@@ -13,7 +13,7 @@ class FoodInventoryManager:
             self.inventory[name]['quantity'] -= quantity
             if self.inventory[name]['quantity'] <= 0:
                 del self.inventory[name]
-#Jaydeepsinh raj
+#viraj
     def check_near_expiry(self, days=3):
         today = datetime.today().date()
         return {name: details for name, details in self.inventory.items()
@@ -21,7 +21,7 @@ class FoodInventoryManager:
 
     def inventory_summary(self):
         return self.inventory
-#Krish patel
+#mann
     def import_inventory(self, file_path):
         with open(file_path, 'r') as f:
             self.inventory = json.load(f)
@@ -29,3 +29,5 @@ class FoodInventoryManager:
     def export_inventory(self, file_path):
         with open(file_path, 'w') as f:
             json.dump(self.inventory, f, indent=4)
+
+
