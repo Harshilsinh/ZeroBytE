@@ -30,4 +30,10 @@ class FoodInventoryManager:
         with open(file_path, 'w') as f:
             json.dump(self.inventory, f, indent=4)
 
-
+    def suggest_storage(self):
+        storage_tips = {
+            "fridge": "Keep dairy, cooked meals, and perishables in the fridge.",
+            "freezer": "Freeze meats, bread, and frozen vegetables.",
+            "pantry": "Store dry goods like rice, pasta, and canned foods in a cool, dry place."
+        }
+        return storage_tips
