@@ -60,7 +60,7 @@ class WasteAnalyzer:
 # ---------------------------
 # 🔍 Example Usage
 # ---------------------------
-
+if __name__=="__main__"
 analyzer = WasteAnalyzer()
 
 # Log waste entries
@@ -81,4 +81,3 @@ print("Filter by Item 'carrot':", analyzer.filter_waste_by_item('carrot'))
 
 analyzer.clear_waste_data()
 print("🧹 Waste Log After Clear:", analyzer.waste_log)
-\
